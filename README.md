@@ -1,2 +1,4 @@
 # odin-landing-page
-Landing page project from TOP Foundations
+This is the landing page project from TOP Foundations
+
+
