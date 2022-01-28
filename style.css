@@ -29,6 +29,7 @@ body {
 
 .hero {
   display: flex;
+  flex-flow: row nowrap;
   justify-content: center;
   padding: 50px 150px;
 }
@@ -69,7 +70,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 225px;
+  padding: 20px 150px;
 }
 
 .tiles-header{
@@ -82,12 +83,14 @@ body {
 
 .tiles-wrapper {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   gap: 20px;
 }
 
 .tile-1, .tile-2, .tile-3, .tile-4 {
   display: flex;
+  width: 200px;
   justify-content: center;
   flex-direction: column;
   text-align: center;
